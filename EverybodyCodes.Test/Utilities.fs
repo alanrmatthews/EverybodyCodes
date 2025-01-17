@@ -9,3 +9,6 @@ module Utilities =
         use stream = assembly.GetManifestResourceStream("EverybodyCodes.Test.Inputs." + resourceName)
         use reader = new StreamReader(stream)
         reader.ReadToEnd()
+
+    let ReadResourceLines (resourceName:string) : string array =
+        ReadResource(resourceName).Split('\n')

@@ -4,6 +4,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Quest2.fs" />
     <Compile Include="Quest1.fs" />
   </ItemGroup>
 </Project>
